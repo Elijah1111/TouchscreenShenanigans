@@ -6,6 +6,8 @@ My Dell Chrombook 11 will not run both the touchscreen and touchpad at the same 
 
 To save hassle I disable elan_i2c and then renable if the script detects the error in journal
 
+It is not terriblly efficent, but I attempted to streamline as well as I could.
+
 # Usage
 Make the .sh file executable and update the path in the service file to where the script is.
 
