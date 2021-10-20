@@ -1,0 +1,9 @@
+[Unit]
+Description=Restarts touchpad/screen when error is detected
+
+[Service]
+ExecStart=/bin/bash /usr/local/bin/touchDisable.sh #TODO change me to where the script is
+User=root
+
+[Install]
+WantedBy=multi-user.target
